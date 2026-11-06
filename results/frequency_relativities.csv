@@ -1,0 +1,58 @@
+feature,relativity
+"cat__DrivAgeBand_(20, 25]",0.7629
+"cat__DrivAgeBand_(25, 30]",0.6544
+"cat__DrivAgeBand_(30, 40]",0.7720
+"cat__DrivAgeBand_(40, 50]",1.0469
+"cat__DrivAgeBand_(50, 60]",0.9805
+"cat__DrivAgeBand_(60, 70]",0.9605
+"cat__DrivAgeBand_(70, 120]",1.0533
+"cat__VehAgeBand_(0, 1]",0.3099
+"cat__VehAgeBand_(1, 5]",0.3285
+"cat__VehAgeBand_(10, 15]",0.2888
+"cat__VehAgeBand_(15, 120]",0.2300
+"cat__VehAgeBand_(5, 10]",0.3454
+cat__VehPowerCap_5,1.1947
+cat__VehPowerCap_6,1.2331
+cat__VehPowerCap_7,1.1369
+cat__VehPowerCap_8,0.9507
+cat__VehPowerCap_9,1.2340
+cat__Area_B,1.0226
+cat__Area_C,1.0228
+cat__Area_D,1.0669
+cat__Area_E,1.0638
+cat__Area_F,0.9997
+cat__VehBrand_B10,1.0253
+cat__VehBrand_B11,1.1000
+cat__VehBrand_B12,1.1621
+cat__VehBrand_B13,1.0192
+cat__VehBrand_B14,0.9169
+cat__VehBrand_B2,0.9993
+cat__VehBrand_B3,1.0124
+cat__VehBrand_B4,0.9800
+cat__VehBrand_B5,1.0619
+cat__VehBrand_B6,0.9977
+cat__VehGas_Regular,1.0676
+cat__Region_R21,1.1535
+cat__Region_R22,1.0387
+cat__Region_R23,0.9562
+cat__Region_R24,1.0918
+cat__Region_R25,1.0636
+cat__Region_R26,0.9932
+cat__Region_R31,0.9197
+cat__Region_R41,0.8128
+cat__Region_R42,1.0489
+cat__Region_R43,0.9442
+cat__Region_R52,1.0061
+cat__Region_R53,1.0985
+cat__Region_R54,0.9743
+cat__Region_R72,0.9420
+cat__Region_R73,0.8960
+cat__Region_R74,1.2199
+cat__Region_R82,1.1056
+cat__Region_R83,0.7982
+cat__Region_R91,0.9575
+cat__Region_R93,1.0028
+cat__Region_R94,1.1384
+num__BonusMalus,1.1257
+num__LogBonusMalus,1.2991
+num__LogDensity,1.0515

@@ -1,0 +1,230 @@
+{
+  "policies": 678013,
+  "claims_in_severity_file": 26444,
+  "train": 542410,
+  "test": 135603,
+  "policies_with_count_but_no_amount": 9116,
+  "gbm_iterations": {
+    "frequency": 354,
+    "severity": 73
+  },
+  "large_claims": {
+    "threshold": 4856.077999999999,
+    "n_above": 1057,
+    "p_above": 0.050002365296371636,
+    "xi": 0.9608350852717435,
+    "sigma": 3396.9849438795754,
+    "mean_excess_gpd": 86735.41018662657,
+    "mean_excess_empirical": 21161.826124881743,
+    "load_per_claim_gpd": 4336.975664282335,
+    "load_per_claim_empirical": 1058.1413602346374
+  },
+  "paid_share_of_claim_counts": 0.7347073543723064,
+  "frequency": [
+    {
+      "model": "mean",
+      "poisson_deviance": 0.6306048629733574,
+      "d2": 0.0,
+      "gini": 0.003385570744708799,
+      "predicted_claims": 7200.789204138235,
+      "observed_claims": 7284.0
+    },
+    {
+      "model": "glm",
+      "poisson_deviance": 0.5990147710297202,
+      "d2": 0.050094906967077746,
+      "gini": 0.2788407905535476,
+      "predicted_claims": 7177.649413018713,
+      "observed_claims": 7284.0
+    },
+    {
+      "model": "gbm",
+      "poisson_deviance": 0.576735767896763,
+      "d2": 0.08542448407802772,
+      "gini": 0.33887574868338644,
+      "predicted_claims": 7179.966535254802,
+      "observed_claims": 7284.0
+    }
+  ],
+  "severity": [
+    {
+      "model": "mean",
+      "gamma_deviance": 0.705241065807375,
+      "d2": 0.0
+    },
+    {
+      "model": "glm",
+      "gamma_deviance": 0.702535176245493,
+      "d2": 0.0038368292674282323
+    },
+    {
+      "model": "gbm",
+      "gamma_deviance": 0.7023622225658995,
+      "d2": 0.004082069778763797
+    }
+  ],
+  "pure_premium": [
+    {
+      "model": "mean",
+      "gini": 0.024089672263759354,
+      "tweedie_deviance_1.9": 34.12365103405536,
+      "predicted_total_eur": 12634983.497963397,
+      "observed_total_eur": 9423952.33
+    },
+    {
+      "model": "glm freq x sev",
+      "gini": 0.2681571767017008,
+      "tweedie_deviance_1.9": 33.75781485104314,
+      "predicted_total_eur": 12636275.235981196,
+      "observed_total_eur": 9423952.33
+    },
+    {
+      "model": "gbm freq x sev",
+      "gini": 0.32784785987795273,
+      "tweedie_deviance_1.9": 33.54430249471286,
+      "predicted_total_eur": 12548635.604101289,
+      "observed_total_eur": 9423952.33
+    },
+    {
+      "model": "tweedie glm",
+      "gini": 0.30672702016863207,
+      "tweedie_deviance_1.9": 33.55878831692803,
+      "predicted_total_eur": 12796978.662451917,
+      "observed_total_eur": 9423952.33
+    }
+  ],
+  "premium_risk": [
+    {
+      "retention_eur": 100000.0,
+      "cv_systematic": 0.0,
+      "expected_claims": 5273.471810850914,
+      "mean_aggregate_eur": 9915877.084734354,
+      "var995_eur": 11073362.318626339,
+      "capital_over_mean": 0.11673049433760639,
+      "cv_aggregate": 0.0430433967377242,
+      "retained_large_excess_gpd": 11006.020978314242,
+      "retained_large_excess_empirical": 11309.35824408704
+    },
+    {
+      "retention_eur": 100000.0,
+      "cv_systematic": 0.05,
+      "expected_claims": 5273.471810850914,
+      "mean_aggregate_eur": 9908532.686395267,
+      "var995_eur": 11664154.287316777,
+      "capital_over_mean": 0.1771828035983607,
+      "cv_aggregate": 0.06606672371789254,
+      "retained_large_excess_gpd": 11006.020978314242,
+      "retained_large_excess_empirical": 11309.35824408704
+    },
+    {
+      "retention_eur": 100000.0,
+      "cv_systematic": 0.1,
+      "expected_claims": 5273.471810850914,
+      "mean_aggregate_eur": 9910388.143839823,
+      "var995_eur": 12921869.186253808,
+      "capital_over_mean": 0.30387115002008125,
+      "cv_aggregate": 0.10930653904270775,
+      "retained_large_excess_gpd": 11006.020978314242,
+      "retained_large_excess_empirical": 11309.35824408704
+    },
+    {
+      "retention_eur": 250000.0,
+      "cv_systematic": 0.0,
+      "expected_claims": 5273.471810850914,
+      "mean_aggregate_eur": 10654358.959401911,
+      "var995_eur": 12467756.000165407,
+      "capital_over_mean": 0.17020236014887297,
+      "cv_aggregate": 0.0607734318533306,
+      "retained_large_excess_gpd": 13806.068650119894,
+      "retained_large_excess_empirical": 14542.165159886472
+    },
+    {
+      "retention_eur": 250000.0,
+      "cv_systematic": 0.05,
+      "expected_claims": 5273.471810850914,
+      "mean_aggregate_eur": 10648622.208641492,
+      "var995_eur": 12958221.104906216,
+      "capital_over_mean": 0.2168918054384966,
+      "cv_aggregate": 0.07874717450661121,
+      "retained_large_excess_gpd": 13806.068650119894,
+      "retained_large_excess_empirical": 14542.165159886472
+    },
+    {
+      "retention_eur": 250000.0,
+      "cv_systematic": 0.1,
+      "expected_claims": 5273.471810850914,
+      "mean_aggregate_eur": 10650741.997836292,
+      "var995_eur": 14178565.66772458,
+      "capital_over_mean": 0.3312279717793341,
+      "cv_aggregate": 0.1176364363069975,
+      "retained_large_excess_gpd": 13806.068650119894,
+      "retained_large_excess_empirical": 14542.165159886472
+    },
+    {
+      "retention_eur": 1000000.0,
+      "cv_systematic": 0.0,
+      "expected_claims": 5273.471810850914,
+      "mean_aggregate_eur": 11716563.795686098,
+      "var995_eur": 15593450.05656004,
+      "capital_over_mean": 0.33088935702303485,
+      "cv_aggregate": 0.10598478815288309,
+      "retained_large_excess_gpd": 17824.053663883853,
+      "retained_large_excess_empirical": 17586.016701986755
+    },
+    {
+      "retention_eur": 1000000.0,
+      "cv_systematic": 0.05,
+      "expected_claims": 5273.471810850914,
+      "mean_aggregate_eur": 11710098.094517693,
+      "var995_eur": 15907394.212828863,
+      "capital_over_mean": 0.35843389905300754,
+      "cv_aggregate": 0.11826573635089056,
+      "retained_large_excess_gpd": 17824.053663883853,
+      "retained_large_excess_empirical": 17586.016701986755
+    },
+    {
+      "retention_eur": 1000000.0,
+      "cv_systematic": 0.1,
+      "expected_claims": 5273.471810850914,
+      "mean_aggregate_eur": 11708010.711847486,
+      "var995_eur": 16774796.044089736,
+      "capital_over_mean": 0.4327622733651162,
+      "cv_aggregate": 0.14682291655795984,
+      "retained_large_excess_gpd": 17824.053663883853,
+      "retained_large_excess_empirical": 17586.016701986755
+    },
+    {
+      "retention_eur": Infinity,
+      "cv_systematic": 0.0,
+      "expected_claims": 5273.471810850914,
+      "mean_aggregate_eur": 16585120.13461416,
+      "var995_eur": 121558133.84618883,
+      "capital_over_mean": 6.329349010411422,
+      "cv_aggregate": 4.0182002736459745,
+      "retained_large_excess_gpd": NaN,
+      "retained_large_excess_empirical": 21161.826124881743
+    },
+    {
+      "retention_eur": Infinity,
+      "cv_systematic": 0.05,
+      "expected_claims": 5273.471810850914,
+      "mean_aggregate_eur": 16460581.536162188,
+      "var995_eur": 141528464.65289304,
+      "capital_over_mean": 7.598023365211594,
+      "cv_aggregate": 3.587878757996055,
+      "retained_large_excess_gpd": NaN,
+      "retained_large_excess_empirical": 21161.826124881743
+    },
+    {
+      "retention_eur": Infinity,
+      "cv_systematic": 0.1,
+      "expected_claims": 5273.471810850914,
+      "mean_aggregate_eur": 16831173.968701135,
+      "var995_eur": 132832773.5030151,
+      "capital_over_mean": 6.892068238972984,
+      "cv_aggregate": 4.4965890250352665,
+      "retained_large_excess_gpd": NaN,
+      "retained_large_excess_empirical": 21161.826124881743
+    }
+  ]
+}
